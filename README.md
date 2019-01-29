@@ -29,4 +29,11 @@ optional arguments:
 
 ```
 
+## Usage example
 
+
+```
+python3 create-ec2.py -p my-pem
+INFO       2019-01-29 01:38:48,899 main                                 50  : succeed. response: {"ResponseMetadata": {"HTTPStatusCode": 200, "RetryAttempts": 0, "RequestId": "ea5dd5c6-2398-11e9-b585-837dd6a4b3c8", "HTTPHeaders": {"content-type": "text/xml", "x-amzn-requestid": "ea5dd5c6-2398-11e9-b585-837dd6a4b3c8", "content-length": "378", "date": "Tue, 29 Jan 2019 07:38:47 GMT"}}, "StackId": "arn:aws:cloudformation:us-east-1:218566243244:stack/my-stack/9c38faf0-2395-11e9-a2f2-12545315cab6"}
+
+```
